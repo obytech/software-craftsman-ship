@@ -76,3 +76,7 @@ for opt in opt_flags:
 
     elif opt == '--configdir':
         print(sysconfig.get_config_var('LIBPL'))
+
+
+# oby
+sys.path.append('/dvlp/Development/python-envs/PyChat/src/python')
